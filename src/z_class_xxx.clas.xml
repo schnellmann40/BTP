@@ -5,12 +5,26 @@
    <VSEOCLASS>
     <CLSNAME>Z_CLASS_XXX</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>demo class</DESCRIPT>
+    <DESCRIPT>Restful ABAP programming model %CID field</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
     <UNICODE>X</UNICODE>
    </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_CLASS_XXX</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instantiate random integer generator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>Z_CLASS_XXX</CLSNAME>
+     <CMPNAME>FROM_UUID_OR_FALLBACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a CID from a system UUID or some fallback operation</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
   </asx:values>
  </asx:abap>
 </abapGit>
